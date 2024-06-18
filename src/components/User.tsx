@@ -21,7 +21,6 @@ export default function User() {
     }
   return (
     <div>
-      Câu 1
       {stateUser.reducerUser.map((user:any)=>{
         return <>
           <li>{user.id}</li>
